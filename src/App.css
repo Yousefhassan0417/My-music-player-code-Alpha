@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+  background-color: rgb(6, 48, 54);
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+.container {
+  margin-top: 20px;
+}
+.App-header {
+  color: white;
+}
+.button{
+  background-color:rgb(204, 91, 34);
+  color: black;
+  font-size: 14px;
+  padding: 7px 10px;
+  border-radius: 11px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: rgb(232, 127, 95);
+  color:black;
+}
+.search form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+}
+.select{
+  color: rgb(234, 7, 7);
+}
